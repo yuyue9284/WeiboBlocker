@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeiboBlocker
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  try to take over the world!
 // @author       yuyue9284@gmail.com
 // @include      http://weibo.com*
