@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeiboBlocker
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  try to take over the world!
 // @author       yuyue9284@gmail.com
 // @include      http://weibo.com*
@@ -40,6 +40,7 @@ var init = function() {
         localStorage.block = JSON.stringify(block);
     }
     $(".gn_header.clearfix").off('click', add_word).on('click', add_word);
+    action();
 };
 
 
