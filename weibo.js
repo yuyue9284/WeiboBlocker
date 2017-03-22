@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WeiboBlocker
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  try to take over the world!
 // @author       yuyue9284@gmail.com
 // @include      http://weibo.com*
@@ -22,7 +22,7 @@ function add_word() {
             block = [];
             break;
         case "show":
-            alert(block);
+            alert(localStorage.block);
             break;
         default:
             block.push(word);
